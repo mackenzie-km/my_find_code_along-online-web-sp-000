@@ -7,5 +7,5 @@ def my_find(collection)
   found_items << yield collection[i]
   i += 1 
 end 
-
+found_items
 end
